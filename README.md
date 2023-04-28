@@ -12,3 +12,12 @@ cd web
 npm install
 npm run start
 ```
+
+## Deploy
+
+Push dist to gh-pages branch:
+```
+# Remove dist from .gitignore
+git add web/dist && git commit -m "Comment"
+git subtree push --prefix web/dist origin gh-pages
+```
