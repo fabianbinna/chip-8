@@ -159,12 +159,8 @@ window.addEventListener(
     if(processor) {
       let key_id = key_map.get(event.key);
       if (key_id != null) {
-        console.log("pressed: " + key_id);
         processor.key_pressed(key_id);
-      } else {
-        console.log("Unmapped key: " + event.key);
-      }
-      
+      } 
     }
   },
   true
@@ -176,12 +172,8 @@ window.addEventListener(
     if(processor) {
       let key_id = key_map.get(event.key);
       if (key_id != null) {
-        console.log("released: " + key_id);
         processor.key_released(key_id);
-      } else {
-        console.log("Unmapped key: " + event.key);
       }
-      
     }
   },
   true
