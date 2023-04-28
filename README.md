@@ -1,2 +1,6 @@
-# chip-8
-A CHIP-8 emulator written in Rust and compiled into WebAssembly
+CHIP-8 Emulator
+
+wasm-pack build
+cd web
+npm install
+npm start run/build
