@@ -21,3 +21,7 @@ Push dist to gh-pages branch:
 git add web/dist && git commit -m "Comment"
 git subtree push --prefix web/dist origin gh-pages
 ```
+
+## Todo
+* Add sound
+* Refactoring
